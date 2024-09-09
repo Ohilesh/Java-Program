@@ -10,34 +10,29 @@ class Dumbbells
 
     // Setter methods for static variables with return types
 	
-    public static float setWeight(float dumbbellWeight)
+    public static void setWeight(float dumbbellWeight)
 	{
         weight = dumbbellWeight;
-        return weight; 
     }
 
-    public static char setMaterial(char dumbbellMaterial) 
+    public static void setMaterial(char dumbbellMaterial) 
 	{
         material = dumbbellMaterial;
-        return material;
     }
 
-    public static double setHandleLength(double length) 
+    public static void setHandleLength(double length) 
 	{
-        handleLength = length;
-        return handleLength; 
+        handleLength = length; 
     }
 
-    public static String setColor(String dumbbellColor)
+    public static void setColor(String dumbbellColor)
 	{
         color = dumbbellColor;
-        return color;
     }
 
-    public static boolean setIsAdjustable(boolean adjustable)
+    public static void setIsAdjustable(boolean adjustable)
 	{
         isAdjustable = adjustable;
-        return isAdjustable; 
     }
 
     // Getter methods for static variables
